@@ -31,7 +31,7 @@ Sw = water shielding
 
 Ser = platform erosion scalar (rock shielding)
 
-
+</br></br>
 <b>Scenarios considered:</b>
 
 Cliff retreat scenarios:
@@ -48,7 +48,7 @@ The user defines the rates for the steady cliff retreat. For the accelerating/de
 
 All shore platform erosion scenarios are run; they are fully controlled by the current topography and the RSL history.
 
-
+</br></br>
 <b>Workflow - example from Staithes, UK:</b>
 
 The four files used to run the code for Staithes () are available in the repository. The user-defined parameters in the code file (<em>RockCoast10Be.m</em>) are also set to this example. If the user runs the code using the four input files, they will receive the same results. For other locations, different inputs are needed.
