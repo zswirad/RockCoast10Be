@@ -1,5 +1,5 @@
 # RockCoast10Be
-[![DOI](https://doi.org/10.5281/zenodo.15783543.svg)](https://doi.org/10.5281/zenodo.15783543)</br>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15783543.svg)](https://doi.org/10.5281/zenodo.15783543)</br>
 Latest version: 2.0 (2025-07-01)
 
 <em>RockCoast10Be.m</em> is a simple backward geometry-based model developped in MATLAB to explore cosmogenic <sup>10</sup>Be concentrations across an active shore platform as a function of cliff retreat and shore platform down-wearing scenarios.
