@@ -14,6 +14,7 @@ The original code was provided as a supplement to Swirad et al. (2020). This Git
 
 The model requires three input files: 1. timeseries of geomagnetic scalar (<em>geomagnetics.txt</em> available in the repository), 2. topography data (a series of distances from the cliff and elevations) and 3. relative sea level (RSL) data (a series of time BP and RSL). <sup>10</sup>Be concentration file can also be included for finding the best-fit scenario. The concentration file should have been corrected for inheritance beforehand. Then a number of variables needs to be defined: total time considered, shore platform width, tidal range, highest and lowest astronomical tide or highest and lowest elevation of shore platform above RSL, cliff height, inclination angle and subtended azimuth angle.
 
+
 <b>Basic formula: [<sup>10</sup>Be] = P texp Sgm Stopo Sw Ser</b>
 
 [<sup>10</sup>Be] = <sup>10</sup>Be concentration (atoms/gram)
@@ -30,6 +31,7 @@ Sw = water shielding
 
 Ser = platform erosion scalar (rock shielding)
 
+
 <b>Scenarios considered:</b>
 
 Cliff retreat scenarios:
@@ -45,6 +47,7 @@ Shore platform erosion scenarios:
 The user defines the rates for the steady cliff retreat. For the accelerating/decelerating scenarios the user defines the current rate as well as the series of values which mean how many times the retreat rate was higher/lower and the begining of the considered period.
 
 All shore platform erosion scenarios are run; they are fully controlled by the current topography and the RSL history.
+
 
 <b>Workflow - example from Staithes, UK:</b>
 
