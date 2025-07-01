@@ -88,3 +88,6 @@ Mean squared difference for each scenario of cliff retreat (x-axis) and platform
 <img class="image" src="figs_staithes/15.jpg" height="300">
 <img class="image" src="figs_staithes/16.jpg" height="300">
 <img class="image" src="figs_staithes/print.jpg" height="300">
+
+
+The purpose of this example is to show how the model works. The results are different from those in Swirad et al. (2020) where only a portion of landward points were used to derive long-term cliff retreat rates and shore platform down-wearing. The seaward points were used to explore platform erosion via block removal (step back-wearing).
