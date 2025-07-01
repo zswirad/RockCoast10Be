@@ -51,7 +51,7 @@ The user defines the rates for the steady cliff retreat. For the accelerating/de
 
 The four files used to run the code for Staithes (<em>geomagnetics.txt</em>, <em>profile.txt</em>, <em>sealevel.txt</em> and <em>measured_inheritance.txt</em>) are available in the repository. The user-defined parameters in the code file (<em>RockCoast10Be.m</em>) are also set for this example. If the user runs the code as it is, they will receive the same results as those provided below. For other locations, different inputs are needed.
 
-When the input files are loadad and all parameters are set, the figures of cliff retreat rates through time and the resulting exposure ages are created for each cliff retreat scenario.
+When the input files are loadad and all parameters are set, the figures of cliff retreat rates through time and the resulting exposure ages are created for each cliff retreat scenario. In the example, jet colour scheme is used where blue colours represent deceleration and red colours acceleration scenarios.
 
 <img class="image" src="figs_staithes/1.jpg" height="300">
 <img class="image" src="figs_staithes/2.jpg" height="300">
