@@ -32,4 +32,4 @@ All shore platform erosion scenarios are run and fully controlled by the current
 
 <b>Workflow:</b>
 
-<img class="image" src="pics_stithes/1.jpg" height="150">
+<img class="image" src="figs_stithes/1.jpg" height="150">
