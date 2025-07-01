@@ -25,5 +25,10 @@ Shore platform erosion scenarios:
 - zero platform erosion
 - steady-state model (platform slope remains constant)
 - platform widening model (slope decreases through time)
-  
+
+The user defines the rates for the stead retreat. For the accelerating/decelerating scenarios the user defines the current rate as well as the series of values equivalent to how many times the retreat rate was higher/lower and the begining of considered period.
+
+All shore platform erosion scenarios are run and fully controlled by the current topography and RSL history (no modifications by the user).
+
+<b>Workflow:</b>
 
