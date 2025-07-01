@@ -9,7 +9,7 @@ Swirad, Z. M. et al. 2020. Cosmogenic exposure dating reveals limited long-term 
 The original code is provided as a supplement to Swirad et al. (2020). The GitHub repository contains a simplified and updated model. On the top of clearer nomenclature, the differences include:
 1. The empirical model of shore platform erosion at Staithes, UK was removed because of its limited utility elsewhere;
 2. The require tidal information was limited to a single value of tidal range and the tidal-dependent highest and lowest shore platform elevation (~highest and lowest astronomical tide);
-3. Topographic shielding is based on cliff geometry (inclination and subtended azimuth zngles);
+3. Topographic shielding is based on cliff geometry (inclination and subtended azimuth angles);
 4. Best-fit scenario can be identified based on mean squared difference. If no <sup>10</sup>Be data are availabe, please comment lines #24 and from #508 on.
 
 The model requires three input files: 1. timeseries of geomagnetic scalar (<em>geomagnetics.txt</em> available in the repository), 2. topography data (a series of distances from the cliff and elevations) and 3. relative sea level (RSL) data (a series of time BP and RSL). <sup>10</sup>Be concentration file can alos be included for finding best fit scenario. The concnetration file should have been corrected for inheritance beforehand. Then a number of variables needs to be defined: total time considered, shore platform width, tidal range, highest and lowest astronomical tide or highest and lowest elevation of shore platform above RSL, cliff height, inclination angle and subtended azimuth angle.
