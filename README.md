@@ -12,7 +12,16 @@ The original code is provided as a supplement to Swirad et al. (2020). The GitHu
 3. Topographic shielding is based on cliff geometry (inclination and subtended azimuth angles);
 4. Best-fit scenario can be identified based on mean squared difference. If no <sup>10</sup>Be data are available, please comment lines #24 and from #508 on.
 
-The model requires three input files: 1. timeseries of geomagnetic scalar (<em>geomagnetics.txt</em> available in the repository), 2. topography data (a series of distances from the cliff and elevations) and 3. relative sea level (RSL) data (a series of time BP and RSL). <sup>10</sup>Be concentration file can alos be included for finding best fit scenario. The concnetration file should have been corrected for inheritance beforehand. Then a number of variables needs to be defined: total time considered, shore platform width, tidal range, highest and lowest astronomical tide or highest and lowest elevation of shore platform above RSL, cliff height, inclination angle and subtended azimuth angle.
+The model requires three input files: 1. timeseries of geomagnetic scalar (<em>geomagnetics.txt</em> available in the repository), 2. topography data (a series of distances from the cliff and elevations) and 3. relative sea level (RSL) data (a series of time BP and RSL). <sup>10</sup>Be concentration file can also be included for finding the best-fit scenario. The concnetration file should have been corrected for inheritance beforehand. Then a number of variables needs to be defined: total time considered, shore platform width, tidal range, highest and lowest astronomical tide or highest and lowest elevation of shore platform above RSL, cliff height, inclination angle and subtended azimuth angle.
 
-
+Scenarios considered:
+Cliff retreat scenarios:
+- steady retreat
+- linear acceleration
+- linear deceleration
+Shore platform erosion scenarios:
+- zero platform erosion
+- steady-state model (platform slope remains constant)
+- platform widening model (slope decreases through time)
+  
 
