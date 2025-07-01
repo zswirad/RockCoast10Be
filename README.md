@@ -66,13 +66,13 @@ Similarly, each cliff retreat scenario has a different topographic shielding, St
 <img class="image" src="figs_staithes/5.jpg" height="300">
 <img class="image" src="figs_staithes/6.jpg" height="300">
 
-Subsequently the elevations, RSL and present water shielding (tidally-dependent) are explored. The best-fit cross-shore profile is created and used in the platform erosion modelling.
+Subsequently the elevations, RSL and present water shielding, Sw (tidally-dependent) are explored. The best-fit cross-shore profile is created and used in the platform erosion modelling.
 
 <img class="image" src="figs_staithes/7.jpg" height="300">
 <img class="image" src="figs_staithes/8.jpg" height="300">
 <img class="image" src="figs_staithes/9.jpg" height="300">
 
-Water shielding and platform erosion scalar (rock shielding) are calculated separately for the three scenarios of shore platform erosion. For zero platform erosion Ser=1 and is not plotted.
+Water shielding, Sw and platform erosion scalar, Ser (rock shielding) are calculated separately for the three scenarios of shore platform erosion. For zero platform erosion Ser=1 and is not plotted.
 
 <img class="image" src="figs_staithes/10.jpg" height="300">
 <img class="image" src="figs_staithes/11.jpg" height="300">
