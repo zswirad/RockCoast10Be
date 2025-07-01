@@ -6,11 +6,11 @@ Latest version: 2.0 (2025-07-01)
 Please refer to the original paper when using this work: 
 <b>Swirad, Z. M. et al. 2020. Cosmogenic exposure dating reveals limited long-term variability in erosion of a rocky coastline. Nature Communcations  11: 3804.</b> https://doi.org/10.1038/s41467-020-17611-9
 
-The original code is provided as a supplement to Swirad et al. (2020). The GitHub repository contains a simplified and updated model. On the top of clearer nomenclature, the differences include:
+The original code was provided as a supplement to Swirad et al. (2020). This GitHub repository contains a simplified and updated model. On the top of a clearer nomenclature, the differences include:
 1. The empirical model of shore platform erosion at Staithes, UK was removed because of its limited utility elsewhere;
 2. The required tidal information was limited to a single value of tidal range;
-3. Topographic shielding is based on cliff geometry (inclination [90 degrees for a vertical cliff] and subtended azimuth [180 degrees for a cliff straight alongshore] angles);
-4. Best-fit scenario can be identified based on the mean squared difference. If no <sup>10</sup>Be data are available, please comment lines #24 and from #508 on.
+3. The topographic shielding is based on cliff geometry (inclination [90 degrees for a vertical cliff] and subtended azimuth [180 degrees for a cliff straight alongshore] angles);
+4. The best-fit scenario can be identified based on the mean squared difference. If no <sup>10</sup>Be data are available, please comment lines #24 and from #508 on.
 
 The model requires three input files: 1. timeseries of geomagnetic scalar (<em>geomagnetics.txt</em> available in the repository), 2. topography data (a series of distances from the cliff and elevations) and 3. relative sea level (RSL) data (a series of time BP and RSL). <sup>10</sup>Be concentration file can also be included for finding the best-fit scenario. The concnetration file should have been corrected for inheritance beforehand. Then a number of variables needs to be defined: total time considered, shore platform width, tidal range, highest and lowest astronomical tide or highest and lowest elevation of shore platform above RSL, cliff height, inclination angle and subtended azimuth angle.
 
