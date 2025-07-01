@@ -1,7 +1,7 @@
 # RockCoast10Be
 Latest version: 2.0 (2025-07-01)
 
-RockCoast10Be.m is a backward geometry-based model developped to explore cosmogenic 10Be concentrations across an active shore platform as a function of cliff retreat and shore platform down-wearing scenarios. It may be used to either explore the expected concentrations or to find a best-fit scenario if 10Be data are available.
+<em>RockCoast10Be.m</em> is a backward geometry-based model developped in MATLAB to explore cosmogenic 10Be concentrations across an active shore platform as a function of cliff retreat and shore platform down-wearing scenarios. It may be used to either explore the expected concentrations or to find a best-fit scenario if 10Be data are available.
 
 Please refer to the original paper when using this work: 
 Swirad, Z. M. et al. 2020. Cosmogenic exposure dating reveals limited long-term variability in erosion of a rocky coastline. Nature Communcations  11: 3804. https://doi.org/10.1038/s41467-020-17611-9
