@@ -60,4 +60,14 @@ Water shielding and platform erosion scalar (rock shielding) are calculated sepa
 <img class="image" src="figs_staithes/10.jpg" height="300">
 <img class="image" src="figs_staithes/11.jpg" height="300">
 
-If 
+If 10Be concnetrations are available, the best-fit scenario can be identified. The concnetrations are plotted with the topography and on the top of those predicted with different scenarios. Across-shore distribution of squarred difference between measured and modelled concentrations are illustrated.
+
+<img class="image" src="figs_staithes/12.jpg" height="300">
+<img class="image" src="figs_staithes/13.jpg" height="300">
+<img class="image" src="figs_staithes/14.jpg" height="300">
+
+Mean squared difference for each scenario of cliff retreat (x-axis) and platform erosion (symbol) is visually provided. The model with the lowest mean squarred difference is selected as the best-fit model and the information is printed.
+
+<img class="image" src="figs_staithes/15.jpg" height="300">
+<img class="image" src="figs_staithes/16.jpg" height="300">
+<img class="image" src="figs_staithes/print.jpg" height="300">
