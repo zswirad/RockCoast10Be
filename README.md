@@ -16,7 +16,7 @@ The model requires three input files: 1. timeseries of geomagnetic scalar (<em>g
 
 <b>Basic formula: [10Be] = P texp Sgm Stopo Sw Ser</b>
 
-[10Be] = <sub>10</sub>Be concentration (atoms/gram)
+[10Be] = <sup>10</sup>Be concentration (atoms/gram)
 P = production rate (atoms/gram/yr)
 texp = exposure time (yr)
 Sgm = geomagnetic scalar
