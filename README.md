@@ -4,7 +4,7 @@ Latest version: 2.0 (2025-07-01)
 <em>RockCoast10Be.m</em> is a simple backward geometry-based model developped in MATLAB to explore cosmogenic <sup>10</sup>Be concentrations across an active shore platform as a function of cliff retreat and shore platform down-wearing scenarios.
 
 Please refer to the original paper when using this work: 
-Swirad, Z. M. et al. 2020. Cosmogenic exposure dating reveals limited long-term variability in erosion of a rocky coastline. Nature Communcations  11: 3804. https://doi.org/10.1038/s41467-020-17611-9
+<b>Swirad, Z. M. et al. 2020. Cosmogenic exposure dating reveals limited long-term variability in erosion of a rocky coastline. Nature Communcations  11: 3804.</b> https://doi.org/10.1038/s41467-020-17611-9
 
 The original code is provided as a supplement to Swirad et al. (2020). The GitHub repository contains a simplified and updated model. On the top of clearer nomenclature, the differences include:
 1. The empirical model of shore platform erosion at Staithes, UK was removed because of its limited utility elsewhere;
