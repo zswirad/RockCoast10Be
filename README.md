@@ -35,13 +35,16 @@ All shore platform erosion scenarios are run; they are fully controlled by the c
 The four files used to run the code for Staithes () are available in the repository. The user-defined parameters in the code file (<RockCoast10Be.m</em>) are also set to this example. If the user runs the code using the four input files, they will receive the same results. For other locations, different inputs are needed.
 
 When input files are loadad and all parameters are set, the figures of cliff retreat rates through time and the resulting exposure ages are created for each cliff retreat scenario.
+
 <img class="image" src="figs_staithes/1.jpg" height="300">
 <img class="image" src="figs_staithes/2.jpg" height="300">
 
 For each cliff retreat scenario the geomagnetic scalard is calculated.
+
 <img class="image" src="figs_staithes/3.jpg" height="300">
 <img class="image" src="figs_staithes/4.jpg" height="300">
 
 Similarly, each cliff retreat scenario has a different topographic shielding distribution.
+
 <img class="image" src="figs_staithes/5.jpg" height="300">
 <img class="image" src="figs_staithes/6.jpg" height="300">
