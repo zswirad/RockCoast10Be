@@ -17,11 +17,17 @@ The model requires three input files: 1. timeseries of geomagnetic scalar (<em>g
 <b>Basic formula: [<sup>10</sup>Be] = P texp Sgm Stopo Sw Ser</b>
 
 [<sup>10</sup>Be] = <sup>10</sup>Be concentration (atoms/gram)
+
 P = production rate (atoms/gram/yr)
+
 texp = exposure time (yr)
+
 Sgm = geomagnetic scalar
+
 Stopo = topographic shielding
+
 Sw = water shielding
+
 Ser = platform erosion scalar (rock shielding)
 
 <b>Scenarios considered:</b>
