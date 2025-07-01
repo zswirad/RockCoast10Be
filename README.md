@@ -12,9 +12,19 @@ The original code was provided as a supplement to Swirad et al. (2020). This Git
 3. The topographic shielding is based on cliff geometry (inclination [90 degrees for a vertical cliff] and subtended azimuth [180 degrees for a cliff straight alongshore] angles);
 4. The best-fit scenario can be identified based on the mean squared difference. If no <sup>10</sup>Be data are available, please comment lines #24 and from #508 on.
 
-The model requires three input files: 1. timeseries of geomagnetic scalar (<em>geomagnetics.txt</em> available in the repository), 2. topography data (a series of distances from the cliff and elevations) and 3. relative sea level (RSL) data (a series of time BP and RSL). <sup>10</sup>Be concentration file can also be included for finding the best-fit scenario. The concnetration file should have been corrected for inheritance beforehand. Then a number of variables needs to be defined: total time considered, shore platform width, tidal range, highest and lowest astronomical tide or highest and lowest elevation of shore platform above RSL, cliff height, inclination angle and subtended azimuth angle.
+The model requires three input files: 1. timeseries of geomagnetic scalar (<em>geomagnetics.txt</em> available in the repository), 2. topography data (a series of distances from the cliff and elevations) and 3. relative sea level (RSL) data (a series of time BP and RSL). <sup>10</sup>Be concentration file can also be included for finding the best-fit scenario. The concentration file should have been corrected for inheritance beforehand. Then a number of variables needs to be defined: total time considered, shore platform width, tidal range, highest and lowest astronomical tide or highest and lowest elevation of shore platform above RSL, cliff height, inclination angle and subtended azimuth angle.
 
-Scenarios considered:
+<b>Basic formula: [10Be] = P texp Sgm Stopo Sw Ser</b>
+
+[10Be] = <sub>10</sub>Be concentration (atoms/gram)
+P = production rate (atoms/gram/yr)
+texp = exposure time (yr)
+Sgm = geomagnetic scalar
+Stopo = topographic shielding
+Sw = water shielding
+Ser = platform erosion scalar (rock shielding)
+
+<b>Scenarios considered:</b>
 
 Cliff retreat scenarios:
 - steady retreat
