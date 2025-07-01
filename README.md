@@ -77,7 +77,7 @@ Water shielding and platform erosion scalar (rock shielding) are calculated sepa
 <img class="image" src="figs_staithes/10.jpg" height="300">
 <img class="image" src="figs_staithes/11.jpg" height="300">
 
-If <em>10<em>Be concentrations are available, the best-fit scenario can be identified. The concentrations are plotted with the topography and on the top of those predicted with different scenarios. Across-shore distribution of squarred difference between measured and modelled concentrations are illustrated.
+If <em>10</em>Be concentrations are available, the best-fit scenario can be identified. The concentrations are plotted with the topography and on the top of those predicted with different scenarios. Across-shore distribution of squarred difference between measured and modelled concentrations are illustrated.
 
 <img class="image" src="figs_staithes/12.jpg" height="300">
 <img class="image" src="figs_staithes/13.jpg" height="300">
