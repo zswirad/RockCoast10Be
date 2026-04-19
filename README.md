@@ -1,6 +1,7 @@
 # RockCoast10Be
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15783543.svg)](https://doi.org/10.5281/zenodo.15783543)</br>
-Citation: Swirad, Z. M. 2025. zswirad/RockCoast10Be: 2.0 (v2.0). Zenodo [code]. https://doi.org/10.5281/zenodo.15783544</br>
+Citation: Swirad, Z. M. 2025. zswirad/RockCoast10Be: 2.0 (v2.0). Zenodo [code]. https://doi.org/10.5281/zenodo.15783544
+
 Latest version: 2.0 (2025-07-01)
 
 <em>RockCoast10Be.m</em> is a simple backward geometric model developed in MATLAB to explore cosmogenic <sup>10</sup>Be concentrations across an active shore platform as a function of cliff retreat and shore platform down-wearing scenarios.
@@ -46,7 +47,7 @@ Shore platform erosion scenarios:
 - steady-state model (platform slope remains constant)
 - platform widening model (slope decreases through time)
 
-The user defines the rates for the steady cliff retreat. For the accelerating/decelerating scenarios the user defines the current rate as well as the series of values which indicate how many times the retreat rate was higher/lower and the begining of the considered period. All shore platform erosion scenarios are run; they are fully controlled by the current topography and the RSL history, and don't take any input from the user.
+The user defines the rates for the steady cliff retreat. For the accelerating/decelerating scenarios the user defines the current rate as well as the series of values which indicate how many times the retreat rate was higher/lower at the begining of the considered period. All shore platform erosion scenarios are run; they are fully controlled by the current topography and the RSL history, and don't take any input from the user.
 
 </br></br>
 <b>Workflow - example from Staithes, UK:</b>
